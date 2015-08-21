@@ -5,5 +5,3 @@
 require_once __DIR__ . '/composer' . '/autoload_real.php';
 
 return ComposerAutoloaderInit8e1a969873d4c91c4eaf73778ff4d8d6::getLoader();
-
-// echo 'dsdsd';
