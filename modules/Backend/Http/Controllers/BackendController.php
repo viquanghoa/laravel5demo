@@ -6,7 +6,7 @@ class BackendController extends Controller {
 	
 	public function index()
 	{
-		return view('backend::index');
+		return view('backend::default.index');
 	}
 	
 }
