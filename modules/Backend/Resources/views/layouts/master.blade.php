@@ -36,10 +36,10 @@
 		{!!Html::style('public/modules/backend/plugins/datepicker/datepicker3.css')!!}
 
 		<!-- Daterange picker -->
-		<!--{!!Html::style('public/modules/backend/plugins/daterangepicker/daterangepicker-bs3.css')!!}-->
+		{!!Html::style('public/modules/backend/plugins/daterangepicker/daterangepicker-bs3.css')!!}
 
 		<!-- bootstrap wysihtml5 - text editor -->
-		<!--{!!Html::style('public/modules/backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css')!!}-->
+		{!!Html::style('public/modules/backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css')!!}
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -78,7 +78,7 @@
 			@include('backend::partial.footer')
 
 			<!-- Control Sidebar -->
-			@include('backend::partial.control-sidebar')
+			<!--include('backend::partial.control-sidebar')-->
 
 		</div><!-- ./wrapper -->
 
@@ -97,28 +97,28 @@
 		{!!Html::script('public/libs/bootstrap/js/bootstrap.min.js')!!}
 
 		<!-- Morris.js charts -->
-<!--		{!!Html::script('https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js')!!}
-		{!!Html::script('public/modules/backend/plugins/morris/morris.min.js')!!}-->
+		{!!Html::script('https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js')!!}
+		{!!Html::script('public/modules/backend/plugins/morris/morris.min.js')!!}
 
 		<!-- Sparkline -->
-		<!--{!!Html::script('public/modules/backend/plugins/sparkline/jquery.sparkline.min.js')!!}-->
+		{!!Html::script('public/modules/backend/plugins/sparkline/jquery.sparkline.min.js')!!}
 
 		<!-- jvectormap -->
-<!--		{!!Html::script('public/modules/backend/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js')!!}
-		{!!Html::script('public/modules/backend/plugins/jvectormap/jquery-jvectormap-world-mill-en.js')!!}-->
+		{!!Html::script('public/modules/backend/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js')!!}
+		{!!Html::script('public/modules/backend/plugins/jvectormap/jquery-jvectormap-world-mill-en.js')!!}
 
 		<!-- jQuery Knob Chart -->
-		<!--{!!Html::script('public/modules/backend/plugins/knob/jquery.knob.js')!!}-->
+		{!!Html::script('public/modules/backend/plugins/knob/jquery.knob.js')!!}
 
 		<!-- daterangepicker -->
-<!--		{!!Html::script('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js')!!}
-		{!!Html::script('public/modules/backend/plugins/daterangepicker/daterangepicker.js')!!}-->
+		{!!Html::script('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js')!!}
+		{!!Html::script('public/modules/backend/plugins/daterangepicker/daterangepicker.js')!!}
 
 		<!-- datepicker -->
 		{!!Html::script('public/modules/backend/plugins/datepicker/bootstrap-datepicker.js')!!}
 
 		<!-- Bootstrap WYSIHTML5 -->
-		<!--{!!Html::script('public/modules/backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js')!!}-->
+		{!!Html::script('public/modules/backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js')!!}
 
 		<!-- Slimscroll -->
 		{!!Html::script('public/modules/backend/plugins/slimScroll/jquery.slimscroll.min.js')!!}
@@ -130,10 +130,10 @@
 		{!!Html::script('public/modules/backend/js/app.min.js')!!}
 
 		<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-		<!--{!!Html::script('public/modules/backend/js/pages/dashboard.js')!!}-->
+		{!!Html::script('public/modules/backend/js/pages/dashboard.js')!!}
 
 		<!-- AdminLTE for demo purposes -->
-		<!--{!!Html::script('public/modules/backend/js/demo.js')!!}-->
+		{!!Html::script('public/modules/backend/js/demo.js')!!}
 
 	</body>
 </html>
